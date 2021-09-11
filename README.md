@@ -115,3 +115,15 @@ docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app sha256:9cec0f106f
 
 
 ```
+
+**Initialize github with ssh link**
+
+
+```
+git init
+git add .
+git commit -m "Something"
+git remote add origin https://github.com/carl1984r/docker-react.git
+git push origin master
+
+```
